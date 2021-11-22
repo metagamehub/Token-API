@@ -1,4 +1,5 @@
-import { createWatcher } from '@makerdao/multicall';
+//import { createWatcher } from '@makerdao/multicall';
+const { createWatcher } = require('@makerdao/multicall');
 
 const mgh = '0x8765b1a0eb57ca49be7eacd35b24a574d0203656';
 const vesting = '0x29fb510ffc4db425d6e2d22331aab3f31c1f1771';
