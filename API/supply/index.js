@@ -29,7 +29,7 @@ async function getTokenData(req, res) {
         console.log("> requesting", type);
         let result = {};
         watcher.subscribe(update => {
-            console.log(`Update: ${update.type} = ${update.value}`);
+            //console.log(`Update: ${update.type} = ${update.value}`);
             if (type === 'ALL' || type == 'CIRCULATING_SUPPLY') {
                 result[update.type] = update.value;
                 if (Object.keys(result).length == labels.length) {
