@@ -1,7 +1,6 @@
 const { createWatcher } = require('@makerdao/multicall');
 const { tags, config, labels } = require('./config');
 const express = require("express");
-const { isValid } = require('ipaddr.js');
 const router = express.Router();
 const app = express();
 
